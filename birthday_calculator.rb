@@ -20,14 +20,14 @@ class Birthday
   end
 
   def happy_birthday
-    return "Happy Birthday, #{@name}!"
+    return "Fijne verjaardag, #{@name.capitalize}!"
   end 
 
   def count
     if @birthday.to_i > @today.to_i
-    "#{@name}, your birthday is in #{@birthday.to_i - @today.to_i} days"
+    "#{@name.capitalize}, je bent over #{@birthday.to_i - @today.to_i} dagen jarig!"
     else
-    "#{@name}, your birthday is in #{365 - (@today.to_i - @birthday.to_i)} days"
+    "#{@name.capitalize}, je bent over #{365 - (@today.to_i - @birthday.to_i)} dagen jarig!"
     end
   end 
 end 

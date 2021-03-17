@@ -1,0 +1,57 @@
+body { 
+  background-color: lightpink;
+  justify-content: center;
+  font-family: Avenir;
+  text-emphasis-color: purple;
+}
+
+h1 { 
+  text-align: center;
+  font-size: 75px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.birthday {
+  margin-top: 50px;
+}
+
+input[type="text" i] {
+  border: none;
+  text-align: center;
+  min-width: 500px;
+  max-width: 500px;
+  font-size: 0.8em;
+}
+
+input[type="submit" i] {
+  min-width: 300;
+  max-width: 300;
+  border: none;
+  background-color: transparent;
+  font-family: Futura;
+  text-transform: uppercase;
+  color: black;
+  font-size: 0.8em;
+  border: 1px solid black;
+  padding-left: 0;
+  margin-top: 5px;
+  padding-bottom: 25px;
+  }
+
+  .box_location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+  }

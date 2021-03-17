@@ -8,8 +8,7 @@ end
 post '/birthday' do
   $Birthday = Birthday.new(params[:name])
   $Birthday.when_is_my_birthday(params[:month], params[:day])
+  erb :birthday
 end 
 
-# get '/greeting' do
-# end 
 
