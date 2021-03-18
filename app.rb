@@ -11,7 +11,7 @@ class Birthday < Sinatra::Base
   end 
 
   post '/birthday' do
-    $Birthday = Birthday_calculator.new(params[:name])
+    $Birthday = BirthdayCalculator.new(params[:name])
     $Birthday.when_is_my_birthday(params[:month], params[:day])
     erb :birthday
   end 

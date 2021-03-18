@@ -1,4 +1,4 @@
-class Birthday_calculator
+class BirthdayCalculator
 
   def initialize(name)
     @name = name
